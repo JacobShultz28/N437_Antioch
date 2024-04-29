@@ -15,7 +15,7 @@ C:/Users/Chase/OneDrive - Indiana University/N437 Project/N437_Antioch
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-53571
+54354
 Successfully changed project path to: C:/Users/Chase/OneDrive - Indiana University/N437 Project/N437_Antioch
 C:/Users/Chase/OneDrive - Indiana University/N437 Project/N437_Antioch
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ C:/Users/Chase/OneDrive - Indiana University/N437 Project/N437_Antioch
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8528] Host "[IP] 192.168.1.215 [Port] 0 [Flags] 2 [Guid] 3582150441 [EditorId] 3582150441 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E34AORA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [21236] Host "[IP] 192.168.1.215 [Port] 0 [Flags] 2 [Guid] 3436291336 [EditorId] 3436291336 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E34AORA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8528] Host "[IP] 192.168.1.215 [Port] 0 [Flags] 2 [Guid] 3582150441 [EditorId] 3582150441 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E34AORA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [21236] Host "[IP] 192.168.1.215 [Port] 0 [Flags] 2 [Guid] 3436291336 [EditorId] 3436291336 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E34AORA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 11.14 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 11.04 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.4f1 (35713cd46cd7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Resources/UnitySubsystems
@@ -69,44 +69,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56552
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56296
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.014275 seconds.
-- Loaded All Assemblies, in  0.370 seconds
+Registered in 0.011283 seconds.
+- Loaded All Assemblies, in  0.330 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.284 seconds
-Domain Reload Profiling: 650ms
-	BeginReloadAssembly (102ms)
+- Finished resetting the current domain, in  0.248 seconds
+Domain Reload Profiling: 575ms
+	BeginReloadAssembly (81ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (78ms)
-	LoadAllAssembliesAndSetupDomain (139ms)
-		LoadAssemblies (99ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (141ms)
+		LoadAssemblies (78ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (130ms)
-			TypeCache.Refresh (130ms)
-				TypeCache.ScanAssembly (115ms)
+		AnalyzeDomain (133ms)
+			TypeCache.Refresh (133ms)
+				TypeCache.ScanAssembly (120ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (284ms)
+	FinalizeReload (248ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (220ms)
+		SetupLoadedEditorAssemblies (196ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (15ms)
-			SetLoadedEditorAssemblies (9ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (147ms)
-			ProcessInitializeOnLoadMethodAttributes (46ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (132ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -116,56 +116,85 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Chase\OneDrive - Indiana University\N437 Project\N437_Antioch\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Chase\OneDrive - Indiana University\N437 Project\N437_Antioch\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.773 seconds
-Refreshing native plugins compatible for Editor in 5.12 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.774 seconds
+Refreshing native plugins compatible for Editor in 4.02 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.571 seconds
-Domain Reload Profiling: 1341ms
-	BeginReloadAssembly (137ms)
+- Finished resetting the current domain, in  0.532 seconds
+Domain Reload Profiling: 1300ms
+	BeginReloadAssembly (123ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (49ms)
-	LoadAllAssembliesAndSetupDomain (532ms)
-		LoadAssemblies (295ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (550ms)
+		LoadAssemblies (355ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (300ms)
-			TypeCache.Refresh (281ms)
-				TypeCache.ScanAssembly (266ms)
-			ScanForSourceGeneratedMonoScriptInfo (15ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (571ms)
+		AnalyzeDomain (253ms)
+			TypeCache.Refresh (238ms)
+				TypeCache.ScanAssembly (223ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (533ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (415ms)
+		SetupLoadedEditorAssemblies (400ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (7ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (65ms)
-			ProcessInitializeOnLoadAttributes (303ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
-			AfterProcessingInitializeOnLoad (15ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (299ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (12ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 15.10 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5.08 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3080 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 31 unused Assets / (56.6 KB). Loaded Objects now: 3566.
 Memory consumption went from 126.8 MB to 126.7 MB.
-Total: 4.553200 ms (FindLiveObjects: 0.389900 ms CreateObjectMapping: 0.212400 ms MarkObjects: 3.819600 ms  DeleteObjects: 0.130400 ms)
+Total: 3.836100 ms (FindLiveObjects: 0.327100 ms CreateObjectMapping: 0.080300 ms MarkObjects: 3.022400 ms  DeleteObjects: 0.405500 ms)
 
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1636358.927493 seconds.
+  path: Assets/Textures/CommandCenter/EverythingElse/CommandSP_01_standardSurface1_Normal.1002.png
+  artifactKey: Guid(89db286057c544d459330187eb71322b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/CommandCenter/EverythingElse/CommandSP_01_standardSurface1_Normal.1002.png using Guid(89db286057c544d459330187eb71322b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aaff54bab13a32589e15169b1954814') in 0.100516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 3571.
+Memory consumption went from 82.4 MB to 82.4 MB.
+Total: 3.722700 ms (FindLiveObjects: 0.223900 ms CreateObjectMapping: 0.140500 ms MarkObjects: 3.335600 ms  DeleteObjects: 0.022200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -178,331 +207,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1633581.357061 seconds.
-  path: Assets/Mats/Comp1.5.mat
-  artifactKey: Guid(7baeb77407b95e14f991499f959b5da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mats/Comp1.5.mat using Guid(7baeb77407b95e14f991499f959b5da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a560b925dd6264669887308676e9b039') in 0.537965 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 11.159821 seconds.
-  path: Assets/Textures/Comp1_Text_lambert2_Metallic.1001.png
-  artifactKey: Guid(c4dfc14825f7ea548b4edd02c0bb9efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Comp1_Text_lambert2_Metallic.1001.png using Guid(c4dfc14825f7ea548b4edd02c0bb9efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cae4f49713bc2beb8ee7e0e94b7fb67b') in 0.014748 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/Textures/Comp1_Text_lambert3_Metallic.1001.png
-  artifactKey: Guid(38c0a4d5f1cc58d4ea1a5b2c04f9cfd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Comp1_Text_lambert3_Metallic.1001.png using Guid(38c0a4d5f1cc58d4ea1a5b2c04f9cfd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7be3f0b7d6a2aa134ed8ec5672c27e8f') in 0.007121 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Textures/Comp2_Text_lambert2_Roughness.1001.jpg
-  artifactKey: Guid(a435fa8968c78f3499607bd00bb98b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Comp2_Text_lambert2_Roughness.1001.jpg using Guid(a435fa8968c78f3499607bd00bb98b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5acfdbd779545d2f5337b84dafa486cd') in 0.012896 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Textures/Comp1_Text_lambert3_Height.1001.png
-  artifactKey: Guid(74c682a1f16267d45ace720b5c536465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Comp1_Text_lambert3_Height.1001.png using Guid(74c682a1f16267d45ace720b5c536465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e8260f962b38d544477fcbfc7a923b5') in 0.007433 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Textures/JS_Heli_lambert7_Normal.1001.png
-  artifactKey: Guid(bf5122e4494f50646b7652affa8f5068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/JS_Heli_lambert7_Normal.1001.png using Guid(bf5122e4494f50646b7652affa8f5068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b07ad255269997e90877d824255b775') in 0.020309 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Textures/container_DefaultMaterial_Normal.png
-  artifactKey: Guid(ef3f4db3781b0bb40ad06cd6b9c26587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/container_DefaultMaterial_Normal.png using Guid(ef3f4db3781b0bb40ad06cd6b9c26587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a01286e3bbd01c167419619d683b8a5b') in 0.018711 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Textures/Planter_Tex_lambert2_Roughness.1001.png
-  artifactKey: Guid(512df2a62a943b34580e0804dee672ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Planter_Tex_lambert2_Roughness.1001.png using Guid(512df2a62a943b34580e0804dee672ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c9d112567c6d21f612918302006ebc7') in 0.014214 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Textures/Comp2_Text_lambert3_BaseColor.1001.jpg
-  artifactKey: Guid(4896b89f84990c6408e2a01f3b0c51a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Comp2_Text_lambert3_BaseColor.1001.jpg using Guid(4896b89f84990c6408e2a01f3b0c51a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a798dc7433837c985235765a37261c88') in 0.013890 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Textures/CryroPodSp_initialShadingGroup_Height.png
-  artifactKey: Guid(a5b070856e52c4f4283bbff5814c6043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/CryroPodSp_initialShadingGroup_Height.png using Guid(a5b070856e52c4f4283bbff5814c6043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac70f9c1839f1e25c80665308581538') in 0.015717 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Textures/Comp2_Text_lambert4_Normal.1001.jpg
-  artifactKey: Guid(140b7222d457a1848b4a7445a7b5c132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Comp2_Text_lambert4_Normal.1001.jpg using Guid(140b7222d457a1848b4a7445a7b5c132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed277d7c4ba59a31b8353ec8850cb0a9') in 0.012129 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Textures/Comp1_Text_lambert7_Metallic.1001.png
-  artifactKey: Guid(fff03d768fab7934c8bd5bcb85f55bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Comp1_Text_lambert7_Metallic.1001.png using Guid(fff03d768fab7934c8bd5bcb85f55bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d001ebadc9dc8caa99cdd82ecb7b951') in 0.014033 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Textures/JS_Barrel_text_standardSurface1_Metallic.1001.jpg
-  artifactKey: Guid(267d8f20698d7f84191bbf937400b36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/JS_Barrel_text_standardSurface1_Metallic.1001.jpg using Guid(267d8f20698d7f84191bbf937400b36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80ada4206d788fe09c5488d66e0a64fa') in 0.015481 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Textures/JS_Small_Fuel_text_lambert3_Metallic.1001.png
-  artifactKey: Guid(15160ed7477e02d4abee1defd1934aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/JS_Small_Fuel_text_lambert3_Metallic.1001.png using Guid(15160ed7477e02d4abee1defd1934aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb80971722cd237b33617e2e922a3488') in 0.016905 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Textures/JS_Small_Fuel_text_lambert3_BaseColor.1001.png
-  artifactKey: Guid(a30b277cacd1b18479edeac3899d47ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/JS_Small_Fuel_text_lambert3_BaseColor.1001.png using Guid(a30b277cacd1b18479edeac3899d47ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96d5997c4ce8606551c875e32a6fce62') in 0.012799 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Textures/Comp2_Text_lambert2_Metallic.1001.jpg
-  artifactKey: Guid(c86c1d13e5d038d45b61ff7acb7428ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Comp2_Text_lambert2_Metallic.1001.jpg using Guid(c86c1d13e5d038d45b61ff7acb7428ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd895d685e416b2c3b1c7c608b47ff05') in 0.007913 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Textures/container_DefaultMaterial_Roughness.png
-  artifactKey: Guid(eac7be975880c2247bd921a1faa3e04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/container_DefaultMaterial_Roughness.png using Guid(eac7be975880c2247bd921a1faa3e04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd3617646ce2aeba6e8253acbe81a24') in 0.014091 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Textures/Comp2_Text_lambert3_Metallic.1001.jpg
-  artifactKey: Guid(78a9b9e5f7433e44a98fa7e6517852c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Comp2_Text_lambert3_Metallic.1001.jpg using Guid(78a9b9e5f7433e44a98fa7e6517852c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02507507a4745a509c6e0ff8e00e03e8') in 0.009891 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Textures/JS_Heli_standardSurface1_Normal.1001.png
-  artifactKey: Guid(eb7681ddda1dd7d499f510451c1c9062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/JS_Heli_standardSurface1_Normal.1001.png using Guid(eb7681ddda1dd7d499f510451c1c9062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '986e7e61ffd8082f9de3b0328b6bddbf') in 0.013415 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Textures/Comp2_Text_lambert2_BaseColor.1001.jpg
-  artifactKey: Guid(83f5e2bbe88c0ac409a4f83d4105e46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Comp2_Text_lambert2_BaseColor.1001.jpg using Guid(83f5e2bbe88c0ac409a4f83d4105e46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd62278b2456ce4240bf458fc4bc3154c') in 0.015681 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Textures/Comp1_Text_lambert4_Roughness.1001.png
-  artifactKey: Guid(e39664d261b0d854c8166a1e7436be55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Comp1_Text_lambert4_Roughness.1001.png using Guid(e39664d261b0d854c8166a1e7436be55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05e856fd7dbe7255f782dbc476b39ce6') in 0.015084 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Textures/JS_Small_Fuel_text_lambert2_Normal.1001.png
-  artifactKey: Guid(dc39a310db87d7649a2fa59d877e5158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/JS_Small_Fuel_text_lambert2_Normal.1001.png using Guid(dc39a310db87d7649a2fa59d877e5158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b598192c25c1e970251a323396a53cc3') in 0.019019 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Textures/Comp1_Text_lambert7_Normal.1001.png
-  artifactKey: Guid(a135dc1ebfb9d2c4b9d34e6038d5ed46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Comp1_Text_lambert7_Normal.1001.png using Guid(a135dc1ebfb9d2c4b9d34e6038d5ed46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '226cb7b23bf8f9d2d31de5b865129932') in 0.008616 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Textures/Comp1_Text_lambert5_Normal.1001.png
-  artifactKey: Guid(a9d658f9bbcad3341ac85b76cb88ee08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Comp1_Text_lambert5_Normal.1001.png using Guid(a9d658f9bbcad3341ac85b76cb88ee08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '330ec8078f1a973e706e298c30b7120f') in 0.016382 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Textures/Comp2_Text_lambert4_Height.1001.jpg
-  artifactKey: Guid(c441487dc03eee44997cbafa47ad7c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Comp2_Text_lambert4_Height.1001.jpg using Guid(c441487dc03eee44997cbafa47ad7c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1720bb56ea779b741d1d30537a5cf632') in 0.008135 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Textures/JS_Small_Fuel_text_lambert3_Height.1001.png
-  artifactKey: Guid(11334fab78539284890624d0e12ccc8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/JS_Small_Fuel_text_lambert3_Height.1001.png using Guid(11334fab78539284890624d0e12ccc8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f97062ac5f443730310b8b8291d099eb') in 0.016480 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Textures/Comp1_Text_lambert6_Height.1001.png
-  artifactKey: Guid(e94009cbd90c68540887def17d3da2d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Comp1_Text_lambert6_Height.1001.png using Guid(e94009cbd90c68540887def17d3da2d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ffafe0b20e9b6ae744278e2f97d5ae9') in 0.008591 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/Textures/JS_Heli_lambert8_Roughness.1001.png
-  artifactKey: Guid(0d43f2bdcb6ef6443800b84b6d45f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/JS_Heli_lambert8_Roughness.1001.png using Guid(0d43f2bdcb6ef6443800b84b6d45f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5facb3920592e162ea46725349698d3a') in 0.016614 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.613713 seconds.
-  path: Assets/Textures/Planter_Tex_lambert3_Metallic.1001.png
-  artifactKey: Guid(35e4a8452ef96ad4ba4ac8bfdef48e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Planter_Tex_lambert3_Metallic.1001.png using Guid(35e4a8452ef96ad4ba4ac8bfdef48e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60067b7d56d4255a803c44c2d0cefdf3') in 0.014021 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Textures/RailGunSp_initialShadingGroup_BaseColor.png
-  artifactKey: Guid(09408dfb22194ea469bc7c236831df40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/RailGunSp_initialShadingGroup_BaseColor.png using Guid(09408dfb22194ea469bc7c236831df40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ccde529ef4c8f41c85db245449f5122') in 0.016013 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Textures/RailGunSp_initialShadingGroup_Normal.png
-  artifactKey: Guid(0f1c7ad33e9c87a4f8af85ed8f463a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/RailGunSp_initialShadingGroup_Normal.png using Guid(0f1c7ad33e9c87a4f8af85ed8f463a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '819e8fc2b89e3ecbb8e1a62598887d9d') in 0.016724 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Textures/RadarSP_standardSurface1_Normal.png
-  artifactKey: Guid(27e7c9ecac1024248a9d3b15f0998134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/RadarSP_standardSurface1_Normal.png using Guid(27e7c9ecac1024248a9d3b15f0998134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '502a13fff7a362541b27a9e9d26e20c9') in 0.019716 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Textures/Planter_Tex_standardSurface1_Roughness.1001.png
-  artifactKey: Guid(f6c2c7fb7cbdeed4cb74d4dca904e1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Planter_Tex_standardSurface1_Roughness.1001.png using Guid(f6c2c7fb7cbdeed4cb74d4dca904e1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '134af6c1a702de061011b309bea9344d') in 0.008397 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Textures/VIC_standardSurface1_Roughness.png
-  artifactKey: Guid(5727f426aa09b66428644a27dd11b653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/VIC_standardSurface1_Roughness.png using Guid(5727f426aa09b66428644a27dd11b653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8142f95286905de68bd009aa857c622') in 0.015832 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Textures/walkway_stairs_DefaultMaterial_BaseColor.png
-  artifactKey: Guid(14e4ed15b24d3f1428d6d4512fb7997b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/walkway_stairs_DefaultMaterial_BaseColor.png using Guid(14e4ed15b24d3f1428d6d4512fb7997b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbcc04a9524f238292c636f451e62061') in 0.015576 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Textures/VIC_standardSurface1_Normal.png
-  artifactKey: Guid(903daf9c39d576f449241757efe1c774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/VIC_standardSurface1_Normal.png using Guid(903daf9c39d576f449241757efe1c774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '043447ee416b09a18d3a79661d4d0a07') in 0.018616 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Textures/tarp_DefaultMaterial_BaseColor.png
-  artifactKey: Guid(4c145a777a9ec3144988e73c0959211f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/tarp_DefaultMaterial_BaseColor.png using Guid(4c145a777a9ec3144988e73c0959211f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '352540d64c98a3b3dc1b2974c185fa7c') in 0.015929 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Textures/tarp_DefaultMaterial_Metallic.png
-  artifactKey: Guid(b445201f95de99a4ca5bf66cbdfd684c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/tarp_DefaultMaterial_Metallic.png using Guid(b445201f95de99a4ca5bf66cbdfd684c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e392612a48fdce7711caf02f3c2ced7') in 0.008031 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Textures/Planter_Tex_standardSurface1_Normal.1001.png
-  artifactKey: Guid(c6208f580e5394e4098674f7968812ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Planter_Tex_standardSurface1_Normal.1001.png using Guid(c6208f580e5394e4098674f7968812ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c228995d13364debe06b477f41673a46') in 0.014891 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Textures/Rock_text_standardSurface1_BaseColor.1001.png
-  artifactKey: Guid(2ac773396e239d447ba0b734f5a3e863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Rock_text_standardSurface1_BaseColor.1001.png using Guid(2ac773396e239d447ba0b734f5a3e863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60dfd3745be894da83316ea402e56131') in 0.015830 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Textures/tarp_DefaultMaterial_Normal.png
-  artifactKey: Guid(ee834fc76f97e3f47b28b6ff40aafa8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/tarp_DefaultMaterial_Normal.png using Guid(ee834fc76f97e3f47b28b6ff40aafa8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a13c989e4dcbbe03a3125a8194955ecc') in 0.015552 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
